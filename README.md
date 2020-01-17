@@ -8,7 +8,7 @@
 4. Type and run: npm install
 5. In order to perform the next step, you need to have angular cli downloaded. If you have angular cli downloaded and angular cli 8+, skip to step 7
 6. npm install -g @angular/cli
-7. Once finished wit the installation, type and run: ng serve
+7. Once finished with the installation, type and run: ng serve
 8. Open Google Chrome (or Microsoft Edge/Firefox) and type in the URL: localhost:4200
 9. Verify that there is a grid with some data there (Toyota, Ford, Porsche)
 10. Click and hold on one of the cell and drag your mouse to select a range of data
