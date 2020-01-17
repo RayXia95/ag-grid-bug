@@ -14,8 +14,8 @@
 10. Click and hold on one of the cell and drag your mouse to select a range of data
 11. With data selected (attached screen shot), Hit Ctrl + c to copy the data (Windows machine)
 12. Try pasting (ctrl + v) into a word document or notepad. Nothing shows up. This is the bug
-13. Cancel the process ng serve 
+13. Go back to the command prompt and cancel the process ng serve 
 14. Go into package.json and change the version of ag-grid-angular, ag-grid-community, amd ag-grid-enterprise to 21.2.2
-15. Run: npm install
+15. Go back to the command prompt and run: npm install
 16. Run: ng serve
 17. Repeat steps 8-12 (copy and paste works).
