@@ -1,27 +1,21 @@
 # AgGridBug
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+## Steps to reproduce the bug using Ag-Grid Version 22.1.1
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Open command prompt or powershell
+2. Change directory to the directory under ag-grid-bug (where the project was cloned to)
+3. You need to have Node 10+, and npm version 6+ (Please install if you do not have those version)
+4. Type and run: npm install
+5. In order to perform the next step, you need to have angular cli downloaded. If you have angular cli downloaded or have angular cli 8+, skip to step 7
+6. npm install -g @angular/cli
+7. Once finished wit the installation, type and run: ng serve
+8. Open Google Chrome (or Microsoft Edge/Firefox) and type in the URL: localhost:4200
+9. Verify that there is a grid with some data there (Toyota, Ford, Porsche)
+10. Click and hold on one of the cell and drag your mouse to select a range of data
+11. With data selected (attached screen shot), Hit Ctrl + c to copy the data (Windows machine)
+12. Try pasting (ctrl + v) into a word document or notepad. Nothing shows up. This is the bug
+13. Cancel the process ng serve 
+14. Go into package.json and change the version of ag-grid-angular, ag-grid-community, amd ag-grid-enterprise to 21.2.2
+15. Run: npm install
+16. Run: ng serve
+17. Repeat steps 8-12 (copy and paste works).
