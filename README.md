@@ -2,7 +2,7 @@
 
 ## Steps to reproduce the bug using Ag-Grid Version 22.1.1
 
-1. Open command prompt or powershell
+1. Open command prompt or powershell and clone this project
 2. Change directory to the directory under ag-grid-bug (where the project was cloned to)
 3. You need to have Node 10+, and npm version 6.4+ (Please install if you do not have those version. https://nodejs.org/en/download/)
 4. Type and run: npm install
