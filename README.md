@@ -6,7 +6,7 @@
 2. Change directory to the directory under ag-grid-bug (where the project was cloned to)
 3. You need to have Node 10+, and npm version 6+ (Please install if you do not have those version)
 4. Type and run: npm install
-5. In order to perform the next step, you need to have angular cli downloaded. If you have angular cli downloaded or have angular cli 8+, skip to step 7
+5. In order to perform the next step, you need to have angular cli downloaded. If you have angular cli downloaded and angular cli 8+, skip to step 7
 6. npm install -g @angular/cli
 7. Once finished wit the installation, type and run: ng serve
 8. Open Google Chrome (or Microsoft Edge/Firefox) and type in the URL: localhost:4200
